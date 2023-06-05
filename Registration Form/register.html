@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+
+    <div class="registration">
+        <h1>Registration Form</h1>
+        <form action="submit.php" method="get">
+            <div>
+                <label for = "fname">First Name: </label>
+                <input type ="text" name="fname" placeholder="Enter Your First Name">
+             
+            </div>
+            <br>
+            <div>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" placeholder="Enter Your Last Name">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" name="email" placeholder="Enter Your Email account">
+            </div>
+            <br>
+            <div>
+                <label for="password">Password : </label>
+                <input type="password" name="password" placeholder="Enter Your Password">
+            </div>
+            <br>
+            <div>
+                <label for="confirm password">Confirm Password : </label>
+                <input type="password" name="confirm password" placeholder="Enter Your Password">
+            </div>
+            <br>
+            <div class="input-field">
+                <label>Date of Birth</label>
+                <input type="date" placeholder="Enter birth date" required>
+            </div>
+          <br>
+            
+            <div class="input-field">
+                <label>Occupation</label>
+                <input type="text" placeholder="Enter your ccupation" required>
+            </div>
+            <br>
+            <div class="input-field">
+                <label>Mobile Number</label>
+                <input type="number" placeholder="Enter mobile number" required>
+            </div>
+            <br>
+            
+            <div>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gender" value="male"><label>Male </label>
+                <input type="radio" name="gender" value="female"><label>Female </label>
+                <input type="radio" name="gender" value="others"><label>Others </label>
+            </div>
+            <br>
+            <div>
+                <label for="lang">Known Language : </label>
+                <input type="checkbox" name="lang" value="english"><label>English </label>
+                <input type="checkbox" name="lang" value="bangla"><label>Bangla </label>
+                <input type="checkbox" name="lang" value="french"><label>French </label>
+            </div>
+            <br>
+            <td>if you already have account go to <a href="Login.html">Log in</a></td>
+            <input type="submit" value="submit" name="submit" id="submit" >
+    </div>
+</div>
+    </form>
+</body>
+</html>
